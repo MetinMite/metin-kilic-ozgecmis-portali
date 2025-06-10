@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { Gamepad2, Heart, Computer } from 'lucide-react';
 
 const HobbiesSection = () => {
   const hobbies = [
@@ -14,7 +13,7 @@ const HobbiesSection = () => {
       icon: "🎮",
       title: "Bilgisayar Oyunları",
       description: "Bilgisayar oyunları oynamak hem eğlenceli vakit geçirmemi hem de teknolojiyle iç içe olmamı sağlıyor.",
-      details: "Strateji ve aksiyon oyunlarını tercih ederim"
+      details: "Aksiyon ve macera oyunlarını tercih ederim"
     },
     {
       icon: "💻",

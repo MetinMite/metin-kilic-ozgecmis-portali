@@ -56,7 +56,7 @@ const AboutSection = () => {
               <ul className="space-y-2 text-muted-foreground">
                 <li>• Hızlı öğrenme ve kavrama yeteneği</li>
                 <li>• Teknik problem çözme becerisi</li>
-                <li>• Pratik çözümler üretebilme</li>
+                <li>• Başarılı bir iletişim</li>
                 <li>• Teknolojiye olan ilgi ve merak</li>
                 <li>• Ehliyet sahibi olma</li>
               </ul>
@@ -65,7 +65,7 @@ const AboutSection = () => {
               <h4 className="font-semibold text-card-foreground mb-3">Kişisel Tercihlerim</h4>
               <ul className="space-y-2 text-muted-foreground">
                 <li>• Kış mevsimini yaz aylarına tercih ederim</li>
-                <li>• Yazın sadece denizi severim</li>
+                <li>• Ailecek film izleme veya aktivite yapmayı severim</li>
                 <li>• Kış aylarında daha keyifli vakit geçiririm</li>
                 <li>• Bilgisayar başında vakit geçirmeyi severim</li>
                 <li>• Hayvanlarla ilgilenmeyi severim</li>

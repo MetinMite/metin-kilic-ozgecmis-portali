@@ -4,10 +4,12 @@ import HeroSection from './HeroSection';
 import AboutSection from './AboutSection';
 import HobbiesSection from './HobbiesSection';
 import ContactSection from './ContactSection';
+import DarkModeToggle from './DarkModeToggle';
 
 const PersonalProfile = () => {
   return (
     <div className="min-h-screen bg-background">
+      <DarkModeToggle />
       <HeroSection />
       <AboutSection />
       <HobbiesSection />
