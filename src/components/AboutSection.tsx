@@ -64,12 +64,37 @@ const AboutSection = () => {
             <div>
               <h4 className="font-semibold text-card-foreground mb-3">Kişisel Tercihlerim</h4>
               <ul className="space-y-2 text-muted-foreground">
-                <li>• Kış mevsimini yaz aylarına tercih ederim</li>
+                <li>• Classic biri değilim, teknolojiye olan ilgimden dolayı modern ve teknolojik bir yerde yaşam sürmeyi seviyorum</li>
                 <li>• Ailecek film izleme veya aktivite yapmayı severim</li>
                 <li>• Kış aylarında daha keyifli vakit geçiririm</li>
                 <li>• Bilgisayar başında vakit geçirmeyi severim</li>
                 <li>• Hayvanlarla ilgilenmeyi severim</li>
               </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Bilgisayar fotoğrafı ve blog yazısı */}
+        <div className="mt-16 bg-card p-8 rounded-lg border border-border">
+          <h3 className="text-2xl font-bold text-card-foreground mb-6 text-center">Yazılım Yolculuğum</h3>
+          <div className="max-w-4xl mx-auto">
+            <div className="mb-8 text-center">
+              <img 
+                src="/lovable-uploads/b69844ab-dc94-4a9b-a941-44ee74995ee9.png" 
+                alt="Bilgisayar Sistemim" 
+                className="w-full max-w-2xl mx-auto rounded-lg shadow-lg"
+              />
+            </div>
+            <div className="prose prose-lg max-w-none text-muted-foreground">
+              <p className="leading-relaxed mb-4">
+                Yazılım ve bilgisayara olan ilgimi bu sistem sayesinde kazandım. Aşırı güçlü olmasa da oldukça hızlı ve verimli bir sistem. Bu sayede internette gezindikçe ilgim arttı ve bu alanı seçmeye karar verdim.
+              </p>
+              <p className="leading-relaxed mb-4">
+                Şimdi ise, gerek kendi çabalarımla gerekse hocalarımın ve Munduz abinin yardımıyla yazılım alanında adımlar atmaya başladım. Bu da kendimle ilgili ilk web sitem.
+              </p>
+              <p className="leading-relaxed text-center font-medium">
+                Umarım beğenmişsinizdir. Okuduğunuz için teşekkür ederim.
+              </p>
             </div>
           </div>
         </div>
