@@ -6,20 +6,20 @@ const HobbiesSection = () => {
     {
       icon: "⚽",
       title: "Futbol",
-      description: "Futbol oynamayı ve maç izlemeyi çok severim. Takım sporlarının verdiği motivasyon beni etkiliyor.",
+      description: "Futbol oynamayı ve maç izlemeyi çok severim. Takım sporlarının verdiği motivasyon beni mutlu ediyor.",
       details: "Hem oynamayı hem de izlemeyi severim"
     },
     {
       icon: "🎮",
       title: "Bilgisayar Oyunları",
       description: "Bilgisayar oyunları oynamak hem eğlenceli vakit geçirmemi hem de teknolojiyle iç içe olmamı sağlıyor.",
-      details: "Aksiyon ve macera oyunlarını tercih ederim"
+      details: "Aksiyon, macera ve strateji oyunlarını tercih ederim"
     },
     {
-      icon: "💻",
-      title: "Yazılım Geliştirme",
-      description: "Kod yazmak, problemleri çözmek ve yeni teknolojiler öğrenmek beni çok mutlu ediyor.",
-      details: "Web geliştirme ve programlama dilleri"
+      icon: "🎸",
+      title: "Gitar",
+      description: "Yeni başladığım bu müzikal yolculuk, hem beni motive ediyor hem de sabırlı olmayı öğretiyor.",
+      details: "Müzik ve enstrüman eğitimi"
     },
     {
       icon: "🦜",
@@ -52,23 +52,24 @@ const HobbiesSection = () => {
           ))}
         </div>
 
+        {/* Memleketim Bölümü */}
         <div className="mt-16 bg-card p-8 rounded-lg border border-border">
-          <h3 className="text-2xl font-bold text-card-foreground mb-6 text-center">Mevsim Tercihleri</h3>
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="text-center">
-              <div className="text-6xl mb-4">❄️</div>
-              <h4 className="text-xl font-semibold text-card-foreground mb-2">Kış</h4>
-              <p className="text-muted-foreground">
-                Kış aylarını çok severim! Soğuk havada evde sıcak bir ortamda 
-                bilgisayar başında vakit geçirmek beni mutlu ediyor.
-              </p>
+          <h3 className="text-2xl font-bold text-card-foreground mb-6 text-center">Memleketim</h3>
+          <div className="max-w-4xl mx-auto">
+            <div className="mb-8 text-center">
+              <img 
+                src="/lovable-uploads/23977dc5-894a-4067-8034-f0936d982e4f.png" 
+                alt="Türk Bayrağı" 
+                className="w-full max-w-2xl mx-auto rounded-lg shadow-lg"
+              />
             </div>
-            <div className="text-center">
-              <div className="text-6xl mb-4">🏖️</div>
-              <h4 className="text-xl font-semibold text-card-foreground mb-2">Yaz</h4>
-              <p className="text-muted-foreground">
-                Yaz aylarını pek sevmem ama deniz çok güzel! Sadece denizde 
-                vakit geçirmeyi severim yazın.
+            <div className="prose prose-lg max-w-none text-muted-foreground">
+              <h4 className="text-xl font-semibold text-card-foreground mb-4 text-center">Türkiye büyüdüğüm yer,</h4>
+              <p className="leading-relaxed mb-4">
+                Merhaba! Türkiye, üç kıtanın kalbinde yer alan, tarih ve doğanın iç içe geçtiği eşsiz bir coğrafyadır. Ege'nin zeytin kokulu sokaklarından Karadeniz'in yemyeşil yaylalarına kadar her bölgesi kendine özgü bir ruh taşır. İstanbul, hem geçmişin izlerini hem de modern yaşamın ritmini bir arada sunar. Bu kültürel zenginliklerin kesişim noktasında büyümek, bana farklı bakış açıları kazandırdı ve değişime kolayca uyum sağlama yeteneğimi geliştirdi. Türkiye'nin dinamik ve çözüm odaklı yapısı, karşılaştığım teknik zorluklara pratik ve yaratıcı çözümler üretme becerimi şekillendirdi. İnsani ilişkilerin merkezde olduğu bu toplumda yetişmek, yazılım geliştirirken kullanıcı deneyimini her zaman önceliğim haline getirdi.
+              </p>
+              <p className="leading-relaxed">
+                Şu anda Bursa'da yaşıyorum. Serin iklimi, kış mevsimini seven biri olarak bana huzur veriyor. Türkiye'nin kuzeybatısında, batıya yakın ama kalabalıktan uzak bu şehir, ideal bir denge sunuyor. Hem doğayla iç içe hem de şehir olanaklarına yakın olmak benim için büyük bir avantaj.
               </p>
             </div>
           </div>

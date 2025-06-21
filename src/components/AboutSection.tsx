@@ -1,13 +1,13 @@
 
 import React from 'react';
-import { GraduationCap, Languages, Computer, Heart } from 'lucide-react';
+import { GraduationCap, Languages, Computer, Heart, Code, Users, MessageCircle, Clock, Lightbulb } from 'lucide-react';
 
 const AboutSection = () => {
   const achievements = [
     {
       icon: GraduationCap,
       title: "Eğitim",
-      description: "Lise eğitimimi başarıyla tamamladım ve yakında üniversite eğitimime başlayacağım."
+      description: "Lise eğitimimi başarıyla tamamladım. Şu anda üniversite eğitimime başlamak üzereyim ve akademik hedeflerime odaklanmış durumdayım."
     },
     {
       icon: Languages,
@@ -17,7 +17,7 @@ const AboutSection = () => {
     {
       icon: Computer,
       title: "Teknoloji",
-      description: "Bilgisayarla uğraşmayı, geliştirmeyi ve vakit geçirmeyi çok seviyorum."
+      description: "Bilgisayarlarla çalışmayı, yeni şeyler geliştirmeyi ve teknolojiyi keşfetmeyi büyük bir tutkuyla seviyorum. Boş zamanlarımda sürekli bu alanda kendimi geliştiriyorum."
     },
     {
       icon: Heart,
@@ -26,14 +26,36 @@ const AboutSection = () => {
     }
   ];
 
+  const technicalSkills = [
+    "HTML5, CSS",
+    "Git & GitHub, VS Code",
+    "Python (Öğreniyorum)"
+  ];
+
+  const socialSkills = [
+    "Problem Çözme",
+    "Etkili İletişim", 
+    "Takım Çalışmasına Yatkınlık",
+    "Geri Bildirime Açıklık",
+    "Zaman Yönetimi"
+  ];
+
   return (
     <section id="hakkimda" className="py-20 px-4 bg-background">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-foreground mb-4">Hakkımda</h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Öğrenmeye açık, hızlı kavrayan ve teknik konularda çözüm üretme becerisi yüksek biriyim.
-          </p>
+          <div className="text-xl text-muted-foreground max-w-4xl mx-auto space-y-4">
+            <p>
+              Teknolojiye ve problem çözmeye tutkuyla bağlı, öğrenmeye açık bir yazılım geliştiricisi adayıyım. Lise eğitimimi başarıyla tamamladım ve yakında başlayacağım üniversite eğitimiyle birlikte kendimi yazılım alanında daha da ileriye taşımayı hedefliyorum.
+            </p>
+            <p>
+              Hızlı öğrenme ve teknik sorunlara çözüm üretme yeteneğim sayesinde yeni teknolojilere kolayca adapte olabiliyorum. B2 seviyesindeki İngilizce bilgimle teknik dokümanları rahatça takip ediyor ve global kaynaklardan besleniyorum.
+            </p>
+            <p>
+              Bu site, yazılım yolculuğumdaki ilk adımlarımı ve tutkumu yansıtan kişisel projemdir.
+            </p>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
@@ -48,27 +70,42 @@ const AboutSection = () => {
           ))}
         </div>
 
-        <div className="bg-card p-8 rounded-lg border border-border">
-          <h3 className="text-2xl font-bold text-card-foreground mb-6">Kişisel Özelliklerim</h3>
-          <div className="grid md:grid-cols-2 gap-6">
+        {/* Yeteneklerim Bölümü */}
+        <div className="bg-card p-8 rounded-lg border border-border mb-16">
+          <h3 className="text-2xl font-bold text-card-foreground mb-6">Yeteneklerim</h3>
+          <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h4 className="font-semibold text-card-foreground mb-3">Güçlü Yanlarım</h4>
-              <ul className="space-y-2 text-muted-foreground">
-                <li>• Hızlı öğrenme ve kavrama yeteneği</li>
-                <li>• Teknik problem çözme becerisi</li>
-                <li>• Başarılı bir iletişim</li>
-                <li>• Teknolojiye olan ilgi ve merak</li>
-                <li>• Ehliyet sahibi olma</li>
-              </ul>
+              <div className="flex items-center gap-3 mb-4">
+                <Code className="w-6 h-6 text-primary" />
+                <h4 className="font-semibold text-card-foreground text-lg">Teknik Yetenekler</h4>
+              </div>
+              <div className="space-y-3">
+                <div>
+                  <span className="font-medium text-card-foreground">Diller:</span>
+                  <span className="text-muted-foreground ml-2">HTML5, CSS</span>
+                </div>
+                <div>
+                  <span className="font-medium text-card-foreground">Araçlar & Platformlar:</span>
+                  <span className="text-muted-foreground ml-2">Git & GitHub, VS Code</span>
+                </div>
+                <div>
+                  <span className="font-medium text-card-foreground">Öğreniyorum:</span>
+                  <span className="text-muted-foreground ml-2">Python</span>
+                </div>
+              </div>
             </div>
             <div>
-              <h4 className="font-semibold text-card-foreground mb-3">Kişisel Tercihlerim</h4>
-              <ul className="space-y-2 text-muted-foreground">
-                <li>• Classic biri değilim, teknolojiye olan ilgimden dolayı modern ve teknolojik bir yerde yaşam sürmeyi seviyorum</li>
-                <li>• Ailecek film izleme veya aktivite yapmayı severim</li>
-                <li>• Kış aylarında daha keyifli vakit geçiririm</li>
-                <li>• Bilgisayar başında vakit geçirmeyi severim</li>
-                <li>• Hayvanlarla ilgilenmeyi severim</li>
+              <div className="flex items-center gap-3 mb-4">
+                <Users className="w-6 h-6 text-primary" />
+                <h4 className="font-semibold text-card-foreground text-lg">Sosyal Yetenekler</h4>
+              </div>
+              <ul className="space-y-2">
+                {socialSkills.map((skill, index) => (
+                  <li key={index} className="text-muted-foreground flex items-center gap-2">
+                    <div className="w-2 h-2 bg-primary rounded-full"></div>
+                    {skill}
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
@@ -91,9 +128,6 @@ const AboutSection = () => {
               </p>
               <p className="leading-relaxed mb-4">
                 Şimdi ise, gerek kendi çabalarımla gerekse hocalarımın ve Munduz abinin yardımıyla yazılım alanında adımlar atmaya başladım. Bu da kendimle ilgili ilk web sitem.
-              </p>
-              <p className="leading-relaxed text-center font-medium">
-                Umarım beğenmişsinizdir. Okuduğunuz için teşekkür ederim.
               </p>
             </div>
           </div>

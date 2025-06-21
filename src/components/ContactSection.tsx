@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Mail, User, Heart } from 'lucide-react';
+import { Mail, User, Handshake, Github, Linkedin } from 'lucide-react';
 
 const ContactSection = () => {
   return (
@@ -31,12 +31,12 @@ const ContactSection = () => {
                 <p className="text-muted-foreground">Metin Kılıç</p>
               </div>
               <div>
-                <h4 className="font-semibold text-card-foreground mb-2">Durum</h4>
-                <p className="text-muted-foreground">Üniversite Adayı / Yazılım Geliştirici</p>
+                <h4 className="font-semibold text-card-foreground mb-2">Unvan</h4>
+                <p className="text-muted-foreground">Yazılım Geliştirici</p>
               </div>
               <div>
-                <h4 className="font-semibold text-card-foreground mb-2">Lokasyon</h4>
-                <p className="text-muted-foreground">Türkiye</p>
+                <h4 className="font-semibold text-card-foreground mb-2">Konum</h4>
+                <p className="text-muted-foreground">Bursa, Türkiye (EET, GMT+3)</p>
               </div>
             </div>
           </div>
@@ -55,15 +55,22 @@ const ContactSection = () => {
             <div className="space-y-4">
               <div className="bg-accent/20 p-4 rounded-lg">
                 <h4 className="font-semibold text-accent-foreground mb-2">E-posta</h4>
-                <p className="text-muted-foreground text-sm">
-                  E-posta adresinizi buraya ekleyebilirsiniz
-                </p>
+                <a href="mailto:ornek@mail.com" className="text-primary hover:text-primary/80 underline">
+                  ornek@mail.com
+                </a>
               </div>
               <div className="bg-accent/20 p-4 rounded-lg">
                 <h4 className="font-semibold text-accent-foreground mb-2">Sosyal Medya</h4>
-                <p className="text-muted-foreground text-sm">
-                  LinkedIn, GitHub gibi profesyonel hesaplarınızı ekleyebilirsiniz
-                </p>
+                <div className="flex gap-4 mt-2">
+                  <a href="#" className="flex items-center gap-2 text-primary hover:text-primary/80">
+                    <Github className="w-5 h-5" />
+                    <span>GitHub</span>
+                  </a>
+                  <a href="#" className="flex items-center gap-2 text-primary hover:text-primary/80">
+                    <Linkedin className="w-5 h-5" />
+                    <span>LinkedIn</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -71,7 +78,7 @@ const ContactSection = () => {
 
         <div className="mt-12 bg-gradient-to-r from-primary/5 to-accent/5 p-8 rounded-lg border border-border text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
-            <Heart className="w-6 h-6 text-primary" />
+            <Handshake className="w-6 h-6 text-primary" />
             <h3 className="text-xl font-bold text-foreground">İşbirliği</h3>
           </div>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
