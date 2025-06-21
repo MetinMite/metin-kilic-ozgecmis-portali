@@ -1,73 +1,72 @@
-# Welcome to your Lovable project
+# Welcome to my project
 
 ## Project info
 
 **URL**: https://lovable.dev/projects/7936a799-1384-4bfe-86d9-472f0f25340a
 
-## How can I edit this code?
+# Metin Kılıç - Kişisel Portfolyo Websitesi
 
-There are several ways of editing your application.
+Bu proje, yazılım geliştirme yolculuğumu, yeteneklerimi ve projelerimi sergilemek amacıyla oluşturduğum kişisel portfolyo web sitemdir. Köklerimin bana kattığı değerlerden teknik yeteneklerime, hobilerimden gelecek hedeflerime kadar beni daha yakından tanıma fırsatı sunar.
 
-**Use Lovable**
+**[Canlı Demoyu Görüntüle](https://metinmite.github.io/metin-kilic-ozgecmis-portali/)**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7936a799-1384-4bfe-86d9-472f0f25340a) and start prompting.
+![Proje Önizlemesi](https://i.imgur.com/your-screenshot-url.png) 
+*(Not: Bu görseli kendi sitenin ekran görüntüsüyle değiştirmelisin.)*
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🚀 Sitenin Bölümleri
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Bu portfolyo sitesi, ziyaretçilere beni kapsamlı bir şekilde tanıtmak için aşağıdaki bölümlerden oluşmaktadır:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* **Hakkımda:** Teknolojiye olan tutkum, öğrenme yaklaşımım ve hedeflerim hakkında genel bir bakış.
+* **Yetenekler:** Sahip olduğum teknik (hard skills) ve sosyal (soft skills) yetkinliklerin bir listesi.
+* **Yazılım Yolculuğum:** Beni yazılım dünyasına çeken kişisel hikayem ve motivasyon kaynağım.
+* **Hobilerim:** Teknik dünyanın dışında beni ben yapan, yaratıcılığımı ve disiplinimi besleyen ilgi alanlarım.
+* **Memleketim:** Büyüdüğüm coğrafyanın ve kültürün bakış açıma ve karakterime olan etkileri üzerine bir yansıma.
+* **İletişim:** Benimle proje işbirlikleri, öğrenme fırsatları veya sadece teknoloji hakkında sohbet etmek için iletişime geçebileceğiniz kanallar.
 
-Follow these steps:
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+Bu proje, modern ve verimli bir web deneyimi sunmak için aşağıdaki teknolojilerle geliştirilmiştir:
+
+* **React:** Kullanıcı arayüzü oluşturmak için temel kütüphane.
+* **Vite:** Hızlı ve modern bir geliştirme ortamı ve proje derleyicisi.
+* **TypeScript:** Koda tip güvenliği ve ölçeklenebilirlik katan dil.
+* **Tailwind CSS:** Hızlı ve özelleştirilebilir tasarımlar için kullanılan CSS çatısı.
+* **shadcn/ui:** Erişilebilir ve estetik bileşenler için kullanılan koleksiyon.
+
+---
+
+## 💻 Lokalde Çalıştırma
+
+Eğer projeyi kendi bilgisayarınızda çalıştırmak isterseniz, aşağıdaki adımları takip edebilirsiniz:
+
+<details>
+<summary>Kurulum talimatlarını görmek için tıklayın</summary>
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# 1. Projeyi klonlayın
+git clone [https://github.com/MetinMite/metin-kilic-ozgecmis-portali.git](https://github.com/MetinMite/metin-kilic-ozgecmis-portali.git)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 2. Proje dizinine gidin
+cd metin-kilic-ozgecmis-portali
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3. Gerekli paketleri yükleyin
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Geliştirme sunucusunu başlatın
 npm run dev
 ```
+</details>
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📫 Bana Ulaşın
 
-**Use GitHub Codespaces**
+Benimle bağlantı kurmaktan çekinmeyin!
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/7936a799-1384-4bfe-86d9-472f0f25340a) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+* **GitHub:** [@MetinMite](https://github.com/MetinMite)
+* **LinkedIn:** *(Buraya LinkedIn profil linkini ekleyebilirsin)*
